@@ -1,0 +1,78 @@
+/* src/styles/DbConnect.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: white;
+  color: #0D2237;
+}
+
+.header {
+  background: #FF8E2B;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.header h1 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  width: 150px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.form-field select,
+.form-field input {
+  flex: 1;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  background: #E0EAF4;
+}
+
+.form-field select:focus,
+.form-field input:focus {
+  outline: none;
+  border-color: #FF8E2B;
+}
+
+.submit-btn {
+    padding: 8px 30px;
+    background: #FF8E2B; /* Active color */
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+}
+
+@media (max-width: 980px) {
+  .container {
+    width: 90%;
+  }
+}

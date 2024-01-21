@@ -1,0 +1,27 @@
+.uim {
+  position: relative;
+  width: 210.16px;
+  height: 105.13px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #0D2237;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 25px;
+  color: #0D2237;
+}
+
+.uim-connection-point {
+  position: absolute;
+  width: 10.84px;
+  height: 10.87px;
+  background: #0D2237;
+  border-radius: 50%;
+}
+
+.uim-connection-point.top { top: -5px; left: 50%; transform: translateX(-50%); }
+.uim-connection-point.right { right: -5px; top: 50%; transform: translateY(-50%); }
+.uim-connection-point.bottom { bottom: -5px; left: 50%; transform: translateX(-50%); }
+.uim-connection-point.left { left: -5px; top: 50%; transform: translateY(-50%); }

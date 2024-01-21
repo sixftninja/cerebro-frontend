@@ -1,0 +1,74 @@
+.chat-panel {
+  border: 1px solid #0D2237;
+  border-radius: 10px;
+  background-color: white; /* Added background color */
+}
+
+.chat-top-bar {
+  background-color: #FF8E2B;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-panel-icons {
+  display: flex;
+  gap: 10px; /* Adjusted for icon spacing */
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 9999px;
+  border: 1px solid #0D2237;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #0D2237;
+}
+
+/* Styles for specific icons (using Font Awesome icons) */
+.icon.minimize::before { content: '\f068'; } /* Font Awesome minus icon */
+.icon.lock::before { content: '\f023'; } /* Font Awesome lock icon */
+.icon.unlock::before { content: '\f09c'; } /* Font Awesome unlock icon */
+.icon.delete::before { content: '\f1f8'; } /* Font Awesome trash icon */
+
+.chat-messages {
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  background-color: #E0EAF4; /* Background for the message area */
+}
+
+.chat-message {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #DDDDDD; /* Border for individual messages */
+}
+
+.chat-input-area {
+  display: flex;
+  padding: 10px;
+  background-color: #F5F5F5; /* Background for the input area */
+}
+
+.chat-input-area input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #DDDDDD; /* Border for the input field */
+}
+
+.chat-input-area button {
+  background-color: #FF8E2B;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
